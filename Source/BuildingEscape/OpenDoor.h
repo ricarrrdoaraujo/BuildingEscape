@@ -26,6 +26,10 @@ public:
 
 private:
 
+	float InitialYaw;
+	float CurrentYaw;
+
+	UPROPERTY(EditAnywhere, Category = "OpenDoor")
 	float TargetYaw = 90.f;
 		
 };
